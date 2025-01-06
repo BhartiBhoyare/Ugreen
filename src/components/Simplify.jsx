@@ -9,9 +9,9 @@ const Simplify = () => {
       </div>
       <div className="grid grid-rows-2 gap-5 mt-14">
         {/* Top row - Single column spanning full width */}
-        <div className="bg-white flex">
+        <div className="bg-white flex overflow-hidden">
           <img
-            className="w-[50rem] cursor-pointer duration-200 hover:scale-105"
+            className="w-[50rem] cursor-pointer duration-500 hover:scale-105"
             src="https://www.ugreen.com/cdn/shop/files/Home_pc_3840x.png?v=1692241376"
             alt=""
           />
@@ -30,9 +30,9 @@ const Simplify = () => {
 
         {/* Bottom row - 3 equal columns */}
         <div className="grid grid-cols-3 gap-5">
-          <div className="bg-white rounded-lg cursor-pointer">
+          <div className="bg-white rounded-lg cursor-pointer overflow-hidden">
             <img
-              className="h-[17.3rem] w-full rounded-t-lg duration-200 hover:scale-105"
+              className="h-[17.3rem] w-full rounded-t-lg duration-500 hover:scale-105"
               src="https://www.ugreen.com/cdn/shop/files/pic2_3840x.png?v=1730769074"
               alt=""
             />
@@ -41,9 +41,9 @@ const Simplify = () => {
               <button className="flex items-center mt-6 text-green-400"> Learn More <IoIosArrowForward className="mt-1" /></button>
             </div>
           </div>
-          <div className="bg-white rounded-lg cursor-pointer">
+          <div className="bg-white rounded-lg cursor-pointer overflow-hidden">
             <img
-              className="rounded-t-lg duration-200 hover:scale-105"
+              className="rounded-t-lg duration-500 hover:scale-105"
               src="https://www.ugreen.com/cdn/shop/files/Business_pc_3840x.png?v=1692241376"
               alt=""
             />
@@ -52,9 +52,9 @@ const Simplify = () => {
               <button className="flex items-center mt-6 text-green-400"> Learn More <IoIosArrowForward className="mt-1" /></button>
             </div>
           </div>
-          <div className="bg-white rounded-lg cursor-pointer">
+          <div className="bg-white rounded-lg cursor-pointer overflow-hidden">
             <img
-              className="rounded-t-lg duration-200 hover:scale-105"
+              className="rounded-t-lg duration-500 hover:scale-105"
               src="https://www.ugreen.com/cdn/shop/files/Game_pc_3840x.png?v=1692241376"
               alt=""
             />
