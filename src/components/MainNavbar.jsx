@@ -25,16 +25,16 @@ const MainNavbar = () => {
           <a href="#products" className="hover:text-gray-400 hover:underline">
             Products
           </a>
-          <a href="#ces2025" className="hover:text-gray-400">
+          <a href="#ces2025" className="hover:text-gray-400 hover:underline">
             CES 2025
           </a>
-          <a href="#deals" className="hover:text-gray-400">
+          <a href="#deals" className="hover:text-gray-400 hover:underline">
             Deals
           </a>
-          <a href="#new-arrivals" className="hover:text-gray-400">
+          <a href="#new-arrivals" className="hover:text-gray-400 hover:underline">
             New Arrivals
           </a>
-          <a href="#support" className="hover:text-gray-400">
+          <a href="#support" className="hover:text-gray-400 hover:underline">
             Support
           </a>
         </div>
