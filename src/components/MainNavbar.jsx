@@ -15,7 +15,7 @@ const MainNavbar = () => {
           "url('https://www.ugreen.com/cdn/shop/files/CES_-pc_3840x.png?v=1735540700')",
       }}
     >
-      <nav className="flex justify-between items-center px-8 py-3">
+      <nav className="flex justify-between items-center px-8 py-3 cursor-pointer">
         <img
           className="h-8"
           src="https://cdn.shopify.com/s/files/1/0257/5246/9566/files/ugreen_logo.svg?v=1723547296"
